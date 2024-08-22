@@ -1,4 +1,5 @@
-#Background
+# Using K-Nearest to predict purchases - From EDx CS50 - AI Course
+## Background
 
 When users are shopping online, not all will end up purchasing something. Most visitors to an online shopping website, in fact, likely don’t end up going through with a purchase during that web browsing session. It might be useful, though, for a shopping website to be able to predict whether a user intends to make a purchase or not: perhaps displaying different content to the user, like showing the user a discount offer if the website believes the user isn’t planning to complete the purchase. How could a website determine a user’s purchasing intent? That’s where machine learning will come in.
 
@@ -23,7 +24,7 @@ Next, take a look at shopping.py. The main function loads data from a CSV spread
 
 The functions load_data, train_model, and evaluate are left blank. That’s where you come in!
 
-Specification
+## Specification
 
 Complete the implementation of load_data, train_model, and evaluate in shopping.py.
 
@@ -51,7 +52,7 @@ You may assume each label will be 1 for positive results (users who did go throu
 You may assume that the list of true labels will contain at least one positive label and at least one negative label.
 You should not modify anything else in shopping.py other than the functions the specification calls for you to implement, though you may write additional functions and/or import other Python standard library modules. You may also import numpy or pandas or anything from scikit-learn, if familiar with them, but you should not use any other third-party Python modules. You should not modify shopping.csv.
 
-Hints
+## Hints
 
 For information and examples about how to load data from a CSV file, see Python’s CSV documentation.
 Testing
